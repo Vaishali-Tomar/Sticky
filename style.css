@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left{
+    float: left;
+    border-right: 2px solid black;
+    width:  50vw;
+    height: 100vh;
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#edit{
+    cursor: pointer;
+}
